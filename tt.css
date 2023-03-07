@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+
+header {
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: black
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    margin: 25px;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.text {
+    font-size: 20px;
+}
+
+div {
+    margin: 20px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.big-text {
+    font-size: 25px;
+}
+
+.timer {
+    border-color: rgb(255, 34, 255);
+}
+
+.timer-text {
+    color: rgb(255, 34, 255);
+}
+
+.timer-text:hover {
+    color: rgb(255, 107, 255);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.stopwatch {
+    border-color: rgb(245, 152, 31)
+}
+
+.stopwatch-text {
+    color: rgb(245, 152, 31)
+}
+
+.stopwatch-text:hover {
+    color: rgb(255, 184, 91)
+}
+
+#start {
+    color: rgb(0, 200, 255)
+}
+
+#start:hover {
+    color: rgb(109, 223, 255)
+}
+
+.tool-text {
+    font-size: 75px;
+    text-align: center;
+}
+
+.timer-tool {
+    border-color: black;
+}
+
+#pause {
+    color: red;
+}
+
+#pause:hover {
+    color: rgb(255, 97, 97);
+}
